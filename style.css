@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Code+Pro&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+    text-decoration: none;
+
+}
+
+body {
+    background-image: url(FUNDO6.jpg);
+    font-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 23px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+    margin-left: -80px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Work Sans', sans-serif;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.8px solid greenyellow;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+     display: flex;
+     flex-direction: column;
+     gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: chartreuse;
+    height: px;
+    text-align: center;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    font-size: 22px;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.conteudo-principal-escrito-botao {
+
+          background-color: rgb(194, 218, 157);
+          width: 180px;
+          height: 60px;
+          margin-left: 350px;
+          margin-top: 40px;
+          border: none;
+          border-radius: 20px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.conteudo-principal-imagem {
+
+      min-height: 200px;
+      margin-top: 50px;
+      margin-right: 40px;
+
+}
+
+.conteudo-secundario {
+
+   display: flex;
+   flex-direction: column;
+   margin-top: 48px;
+   margin-left: 100px;
+   padding-top: 60px;
+
+}
+
+.conteudo-secundario-titulo {
+
+    border-top: 0.8px solid chartreuse;
+    padding-top: 48px;
+    margin-block-end: 56px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    color: greenyellow
+}
+
+.conteudo-secundario-paragrafo {
+    
+    font-size: 'Source Code Pro', monospace;
+    color: yellowgreen;
+    margin-left: 110px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+#t1 {
+   font-size: 20px;
+    
+}
+
+#t2 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#t3 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.rodape-imagem {
+
+    padding: 32px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+@media screen and (min-width: 768px) {
+        nav {
+            flex-direction: row;
+            justify-content: space-around;
+        }    
+        nav ul {
+            flex-direction: row;
+            width: 70%;
+        }
+}
